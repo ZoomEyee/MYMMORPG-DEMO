@@ -27,7 +27,7 @@ public class BinaryDataMgr : Singleton<BinaryDataMgr>
             fs.Close();
         }
     }
-    public T LoadData<T>(string fileName, bool isStreaming = false) where T : class
+    public T LoadData<T>(string fileName) where T : class
     {
         string path = BINARY_PER_PATH + fileName + EXTENSION_NORMAL;
         if (!File.Exists(path))

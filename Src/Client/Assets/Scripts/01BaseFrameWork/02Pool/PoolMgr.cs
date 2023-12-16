@@ -7,7 +7,7 @@ public class PoolMgr : Singleton<PoolMgr>
 {
     private GameObject RootObj;
     private Dictionary<string, PoolData> poolDic = new Dictionary<string, PoolData>();
-    
+
     public void GetObj(string objPathName, UnityAction<GameObject> callBack)
     {
         if (poolDic.ContainsKey(objPathName) && poolDic[objPathName].poolList.Count > 0)

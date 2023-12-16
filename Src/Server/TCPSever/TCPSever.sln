@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCPSever", "TCPSever.csproj", "{3D757867-8F46-4E3B-B824-B6311214F87A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpAsyncServer", "..\TcpAsyncServer\TcpAsyncServer.csproj", "{7518D055-8770-4C9D-88B8-8A57D58D41EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D757867-8F46-4E3B-B824-B6311214F87A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D757867-8F46-4E3B-B824-B6311214F87A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D757867-8F46-4E3B-B824-B6311214F87A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D757867-8F46-4E3B-B824-B6311214F87A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7518D055-8770-4C9D-88B8-8A57D58D41EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7518D055-8770-4C9D-88B8-8A57D58D41EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7518D055-8770-4C9D-88B8-8A57D58D41EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7518D055-8770-4C9D-88B8-8A57D58D41EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD1D7C66-534F-43E7-A41C-8A2EF759045A}
+	EndGlobalSection
+EndGlobal

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Singleton<T> where T : new()
 {
-    protected Singleton() { }
     private static T instance;
     public static T Instance
     {

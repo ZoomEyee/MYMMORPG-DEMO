@@ -174,7 +174,7 @@ public class ExcelDataCreater
         if (!Directory.Exists(XML_PATH))
             Directory.CreateDirectory(XML_PATH);
 
-        dynamic containerObj = Activator.CreateInstance(Type.GetType(table.TableName + "Container"));
+        object containerObj = Activator.CreateInstance(Type.GetType(table.TableName + "Container"));//dynamic
 
         FieldInfo[] classFields = Type.GetType(table.TableName).GetFields();
         FieldInfo[] containerFields = containerObj.GetType().GetFields();
