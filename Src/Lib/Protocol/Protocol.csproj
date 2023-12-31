@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Google.Protobuf">
+      <HintPath>..\..\..\Tools\Protoc\bin\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>..\..\..\Tools\Protoc\bin\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net.Reflection">
+      <HintPath>..\..\..\Tools\Protoc\bin\protobuf-net.Reflection.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -58,7 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\01BaseFrameWork\01Base\SingletonThread.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\00Base\BaseData.cs" />
-    <Compile Include="Assets\Scripts\01BaseFrameWork\03Event\Test\Task.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\03Event\Test\TaskTest.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\05Excel\Excel\ExcelDataCreater.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\06Res\ResourcesMgr.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\05MVC\PureMVC\Patterns\Proxy\Proxy.cs" />
@@ -66,37 +66,48 @@
     <Compile Include="Assets\Scripts\01BaseFrameWork\03Event\EventType.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\05Excel\Container\PlayerInfoContainer.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\05MVC\PureMVC\Interfaces\IController.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\02UDP\Async\UdpAsyncNetMgr.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\03Json\LitJson\JsonWriter.cs" />
-    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\01TCP\Sync\TCPNetMgr.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\01TCP\Sync\TcpNetMgr.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\04Binary\BinaryTest.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\02Xml\XmlSerizlizerDictionary.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\05MVC\PureMVC\Interfaces\INotifier.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\01GUI\Control\CustomGUIToggleGroup.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\08Audio\AudioMgr.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\06Custom\CustomProtocol\GameMonster\Enum\E_MONSTER_TYPE.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\00Base\Test\PlayerMsg.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\06Custom\CustomProtocol\GameSystem\Msg\HeartMsg.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\01GUI\Control\CustomGUIToggle.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\01GUI\Control\CustomGUITextField.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\05Unity\DownLoadHandlerMsg.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\01Prefs\PlayerPrefsDataMgr.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\01Base\MonoSingleton.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\05MVC\PureMVC\Core\View.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\05MVC\PureMVC\Patterns\Command\SimpleCommand.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\03Event\EventCenter.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\01GUI\Control\CustomGUISlider.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\06Custom\CustomProtocol\GamePlayer\Data\PlayerData.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\05MVC\PureMVC\Interfaces\IObserver.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\05Excel\Excel\ExcelTest.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\02Xml\XmlTest.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\01GUI\Control\CustomGUIButton.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\03UGUI\Test\UGUIMainTest.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\04HTTP\HttpNetMgr.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\05MVC\PureMVC\Core\Model.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\03Json\LitJson\JsonMockWrapper.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\01TCP\Async\TcpAsyncNetMgr.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\05Excel\Container\TowerInfoContainer.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\01Prefs\PrefsTest.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\00Base\QuitMsg.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\03Json\LitJson\JsonData.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\05Excel\Class\TowerInfo.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\01GUI\FrameWork\CustomGUIBasePanel.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\01GUI\Control\CustomGUITextArea.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\02Xml\XmlDataMgr.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\01GUI\Control\CustomGUILabel.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\07Protobuf\ProtobufTool.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\01GUI\Base\CustomGUIControl.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\06Custom\CustomProtocol\GamePlayer\Enum\E_HERO_TYPE.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\01GUI\Control\CustomGUIScrollbar.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\01GUI\Base\CustomGUIPanel.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\01GUI\Control\CustomGUISelectionGrid.cs" />
@@ -112,17 +123,23 @@
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\01GUI\Base\CustomGUIGroup.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\04Mono\PublicMonoMgr.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\01GUI\Control\CustomGUITexture.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\08MMO\NetMessage.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\05MVC\PureMVC\Interfaces\IModel.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\05MVC\PureMVC\Interfaces\IProxy.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\02Pool\PoolMgr.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\05MVC\PureMVC\Interfaces\IFacade.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\01GUI\Control\CustomGUIRepeatButton.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\05MVC\PureMVC\Interfaces\ICommand.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\06Custom\ProtocolTool.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\00Base\HeartMsg.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\00Base\Test\PlayerData.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\03Json\LitJson\Netstandard15Polyfill.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\03Json\LitJson\IJsonWrapper.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\07Input\InputMgr.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\06Custom\CustomProtocol\GamePlayer\Enum\E_PLAYER_TYPE.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\05MVC\PureMVC\Patterns\Observer\Notification.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\01GUI\Control\CustomGUIWindow.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\06Custom\CustomProtocol\GameSystem\Data\HeartData.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\01GUI\Control\CustomGUIToolbar.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\02Pool\PoolData.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\03UGUI\FrameWork\UGUIBasePanel.cs" />
@@ -131,6 +148,7 @@
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\03Json\LitJson\Lexer.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\05MVC\PureMVC\Interfaces\IMediator.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\03UGUI\Test\LoginModel.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\01TCP\Sync\TcpTest.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\01GUI\Control\CustomGUIPasswordField.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\05MVC\PureMVC\Patterns\Observer\Observer.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\03UGUI\FrameWork\UGUIMgr.cs" />
@@ -138,9 +156,11 @@
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\05Excel\Class\PlayerInfo.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\01Base\Singleton.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\03UGUI\Test\LoginDataObj.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\01TCP\Async\UdpTest.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\03UGUI\Test\UGUILoginPanelTest.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\05MVC\PureMVC\Patterns\Observer\Notifier.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\03Json\JsonTest.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\05Unity\UnityNetMgr.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\05MVC\PureMVC\Patterns\Command\MacroCommand.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\00Base\BaseMsg.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\05MVC\PureMVC\Core\Controller.cs" />
@@ -149,19 +169,19 @@
     <Compile Include="Assets\Scripts\01BaseFrameWork\04Mono\MonoTest.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\05Excel\Class\TestInfo.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\05MVC\PureMVC\Interfaces\IView.cs" />
-    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\02UDP\Sync\UDPNetMgr.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\02UDP\Sync\UdpNetMgr.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\03Json\JsonDataMgr.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\06Custom\GenerateCSharp.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\05MVC\PureMVC\Patterns\Mediator\Mediator.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\08MMO\ClientNetMgr.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\03Event\Test\Player.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\04Binary\BinaryDataMgr.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\06Custom\CustomProtocol\GamePlayer\Msg\PlayerMsg.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\09Data\03Json\LitJson\ParserToken.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\01GUI\Base\CustomGUIScrollView.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\03FTP\FtpNetMgr.cs" />
     <Compile Include="Assets\Scripts\01BaseFrameWork\10UI\05MVC\PureMVC\Patterns\Facade\Facade.cs" />
-    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\00Base\HeartMsg.cs" />
-    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\00Base\QuitMsg.cs" />
-    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\00Base\Test\PlayerMsg.cs" />
-    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\00Base\Test\PlayerData.cs" />
-    <Compile Include="Assets\Scripts\01BaseFrameWork\11Net\01TCP\Async\NetAsyncMgr.cs" />
+    <Compile Include="Assets\Scripts\01BaseFrameWork\12Lua\01AB\AssetBundleMgr.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -170,6 +190,7 @@
     <None Include="Assets\Scripts\01BaseFrameWork\09Data\05Excel\Excel\ExcelDll\Excel.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\Scripts\01BaseFrameWork\09Data\05Excel\Excel\ExcelDll\ICSharpCode.SharpZipLib.dll" />
+    <None Include="Assets\Data\ProtocolXml\ProtocolInfo.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
@@ -456,6 +477,12 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.1.0\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>Assets\Plugins\Protobuf\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets\Plugins\Protobuf\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>D:\Unity\2021.3.23f1c1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -909,6 +936,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.AssetBundleBrowser.Editor.csproj">
+      <Project>{2FE24848-704D-D139-C9F7-37F7B15A571D}</Project>
+      <Name>Unity.AssetBundleBrowser.Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

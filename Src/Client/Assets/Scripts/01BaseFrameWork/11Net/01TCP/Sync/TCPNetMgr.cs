@@ -6,7 +6,7 @@ using System.Net.Sockets;
 using System.Threading;
 using UnityEngine;
 
-public class TCPNetMgr : MonoSingleton<TCPNetMgr>
+public class TcpNetMgr : MonoSingleton<TcpNetMgr>
 {
     public int SEND_HEART_MSG_TIME = 2;
     private Socket clientSocket;
@@ -16,7 +16,6 @@ public class TCPNetMgr : MonoSingleton<TCPNetMgr>
     private int cacheNum = 0;
     private bool isConnected = false;
     private HeartMsg hearMsg = new HeartMsg();
-
     public void Send(BaseMsg msg)
     {
         sendMsgQueue.Enqueue(msg);
