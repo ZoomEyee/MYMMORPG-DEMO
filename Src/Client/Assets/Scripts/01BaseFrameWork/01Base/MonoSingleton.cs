@@ -18,4 +18,8 @@ public class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
             return instance;
         }
     }
+    private void OnDestroy()
+    {
+        instance = null;
+    }
 }

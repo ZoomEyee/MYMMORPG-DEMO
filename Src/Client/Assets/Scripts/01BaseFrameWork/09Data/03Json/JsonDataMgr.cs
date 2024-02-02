@@ -55,8 +55,7 @@ public class JsonDataMgr : Singleton<JsonDataMgr>
                 break;
             case JsonType.LitJson:
                 data = JsonMapper.ToObject<T>(jsonStr);
-                break;
-            
+                break;            
         }
         return data;
     }
