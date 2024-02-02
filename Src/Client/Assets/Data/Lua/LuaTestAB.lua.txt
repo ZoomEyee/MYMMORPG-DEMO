@@ -1,0 +1,1 @@
+print("XluaMgr测试-在AB包中需要改成txt")

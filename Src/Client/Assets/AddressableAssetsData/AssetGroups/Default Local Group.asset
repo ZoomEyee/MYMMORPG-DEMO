@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2634898b0f07e20439667d1a15fb00cf
+  m_SerializeEntries:
+  - m_GUID: 819e8120f8793d84f989cf019db49597
+    m_Address: Assets/ArtRes/Image/quanlity_0.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f149cab0f303e34fbb9d79a4c5e7e93
+    m_Address: Assets/ArtRes/Image/ui_TY_fanhui_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bc8cacc9bb66fb547b6a8cc65d415b5b
+    m_Address: Assets/ArtRes/Image/ui_TY_lvseshuzi_08.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d69e8081e21a5394bae00e8dd331df0e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2f12362ff3921ee429d3a85ac376a514, type: 2}
+    - {fileID: 11400000, guid: d2d940295348445458e37acd98b8e63a, type: 2}

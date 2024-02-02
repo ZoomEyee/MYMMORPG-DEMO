@@ -1,0 +1,1 @@
+print("XluaMgr测试-正宗lua文件")
